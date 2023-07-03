@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arvo:wght@700&family=Babylonica&family=Calistoga&family=Caprasimo&family=Chakra+Petch&family=DynaPuff:wght@400;600&family=Itim&family=Michroma&family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+}
+
+.head{
+  color: white !important;
+  font-size: x-large !important;
+}
+.main{
+  background-image: url(bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+.main_img{
+  height: 550px;
+  height: 550px;
+  border-radius: 0 20px 0 19px;
+}
+.main2{
+  display: flex;
+  
+}
+.main-info{
+  width: auto;
+  height: auto;
+  color: white;
+  font-family: caprasimo;
+}
+.info{
+  font-family: calistoga;
+}
+.main-info h1{
+  margin-top: 150px;
+}
+.key_features{
+  background-image: url(bg2.jpg);
+  width: auto;
+  height: auto;
+  color: white;
+}
+.key_features h1{
+  color: white;
+  font-family: caprasimo;
+  text-align: center;
+}
+.kf1_img{
+  height: 250px;
+  width: 250px;
+}
+.kf{
+  display: flex;
+  font-size: 25px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    display: flex;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+
+
+
+
